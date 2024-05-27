@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Anton&family=Dancing+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Anton&family=Courgette&family=Dancing+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+footer{
+    background-color: rgb(124, 95, 59);
+    height: 18vh;
+    width: 100vw;
+    text-align: center;
+
+    @media (min-width: 320px) and (max-width: 768px){
+        height: 30vh;
+    }
+}
+
+h2{
+    margin: 1rem;
+    font-family: "Allura", cursive;
+    font-weight: 400;
+  font-style: normal;
+
+  @media (min-width: 320px) and (max-width: 768px){
+    font-size: 1.5rem;
+}
+}
+
+h4{
+    margin: 1rem;
+    font-size: 1.2rem;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    @media (min-width: 320px) and (max-width: 768px){
+        font-size: 1rem;
+    }
+}
